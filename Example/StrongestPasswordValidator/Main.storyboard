@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Strongest Password Validator View Controller-->
         <scene sceneID="wQg-tq-qST">
             <objects>
                 <viewController id="whP-gf-Uak" customClass="StrongestPasswordValidatorViewController" sceneMemberID="viewController">
@@ -16,8 +16,44 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OtO-mQ-SUW">
+                                <rect key="frame" x="163" y="299" width="273" height="2"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" preservesSuperviewLayoutMargins="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Odb-Xu-Nvo">
+                                <rect key="frame" x="163" y="310" width="273" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="273" id="Vy3-V6-EJW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Csp-5e-4k1">
+                                <rect key="frame" x="163" y="211" width="273" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="change:" destination="whP-gf-Uak" eventType="editingChanged" id="AMt-sO-h1A"/>
+                                    <outlet property="delegate" destination="whP-gf-Uak" id="QRd-l8-IQb"/>
+                                </connections>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Odb-Xu-Nvo" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="Vt5-Gb-gro"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="Odb-Xu-Nvo" secondAttribute="bottom" constant="246" id="bvW-ba-r8V"/>
+                            <constraint firstItem="OtO-mQ-SUW" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="f01-p6-F1k"/>
+                            <constraint firstItem="Odb-Xu-Nvo" firstAttribute="leading" secondItem="Csp-5e-4k1" secondAttribute="leading" id="v9c-tP-FqQ"/>
+                            <constraint firstItem="Odb-Xu-Nvo" firstAttribute="trailing" secondItem="Csp-5e-4k1" secondAttribute="trailing" id="y5J-UJ-tPj"/>
+                            <constraint firstItem="Csp-5e-4k1" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" constant="-74" id="zGS-n3-jh6"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="passwordTextfield" destination="Csp-5e-4k1" id="3sr-aY-W8V"/>
+                        <outlet property="strenghtLabel" destination="Odb-Xu-Nvo" id="NIF-Zd-kdI"/>
+                        <outlet property="strenghtProgress" destination="OtO-mQ-SUW" id="bBC-Qg-C6J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

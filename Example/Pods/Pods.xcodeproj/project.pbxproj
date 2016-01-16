@@ -68,7 +68,7 @@
 		66A27898E989A3FA5C15AA671C4536F0 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 760BA7B5F09D477F128F7CD8D3AB7FF2 /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		67459AD239EF669A365519E06B45DCFE /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F63B0FF272D1EB750D82F3EADA2D2CA /* EXPExpect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6846FE121C4A950100FD46A7 /* StrongestPasswordValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6846FE101C4A950100FD46A7 /* StrongestPasswordValidator.h */; };
-		6846FE131C4A950100FD46A7 /* StrongestPasswordValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6846FE101C4A950100FD46A7 /* StrongestPasswordValidator.h */; };
+		6846FE131C4A950100FD46A7 /* StrongestPasswordValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6846FE101C4A950100FD46A7 /* StrongestPasswordValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6846FE141C4A950100FD46A7 /* StrongestPasswordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6846FE111C4A950100FD46A7 /* StrongestPasswordValidator.m */; };
 		6846FE151C4A950100FD46A7 /* StrongestPasswordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6846FE111C4A950100FD46A7 /* StrongestPasswordValidator.m */; };
 		6846FE161C4A950100FD46A7 /* StrongestPasswordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6846FE111C4A950100FD46A7 /* StrongestPasswordValidator.m */; };

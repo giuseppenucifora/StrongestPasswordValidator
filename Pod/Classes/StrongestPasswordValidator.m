@@ -93,7 +93,7 @@ static bool isFirstAccess = YES;
     return self;
 }
 
-- (void)checkPasswordStrength:(NSString * _Nonnull )password withBlock:(id _Nonnull) object inBackGroundWithBlock:(nullable void (^)(UIColor * _Nonnull color, PasswordStrengthType  strenghtType)) responseBlock; {
+- (void)checkPasswordStrength:(NSString * _Nonnull )password withBlock:(nullable void (^)(UIColor * _Nonnull color, PasswordStrengthType  strenghtType)) responseBlock; {
     
     if (responseBlock) {
         

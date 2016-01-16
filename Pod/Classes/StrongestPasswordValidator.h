@@ -20,7 +20,7 @@ typedef NS_ENUM(NSInteger, PasswordStrengthType) {
 
 - (void) setColor:(UIColor * _Nonnull) color forPasswordStrenghtType:(PasswordStrengthType) strenghtType;
 
-- (void)checkPasswordStrength:(NSString * _Nonnull )password withBlock:(id _Nonnull) object inBackGroundWithBlock:(nullable void (^)(UIColor * _Nonnull color, PasswordStrengthType  strenghtType)) responseBlock;
+- (void)checkPasswordStrength:(NSString * _Nonnull )password withBlock:(nullable void (^)(UIColor * _Nonnull color, PasswordStrengthType  strenghtType)) responseBlock;
 
 - (PasswordStrengthType)checkPasswordStrength:(NSString * _Nonnull)password;
 
