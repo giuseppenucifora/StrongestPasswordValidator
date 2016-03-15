@@ -42,8 +42,10 @@
 		37F323E92FABB19D0D53E6A75DB6F384 /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = E42AB63F84DC20AD246EB8FFA3EFEF2C /* SPTSharedExampleGroups.m */; };
 		397B320B7C59C168CC5B62E18ED8DEA0 /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = C4318C653F9355DDB7F7553A52F8890D /* EXPMatchers+beSubclassOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39F3AFD4DADD9BF4AEDFAF1FEA82B2F2 /* ExpectaObject+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA8473E9C7CE1583F74DFBDAE8B0854 /* ExpectaObject+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AA9DAC1F8347855B22B3814979FCF49 /* StrongestPasswordValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FAEED59F59DC01D43D51D1993DECCA /* StrongestPasswordValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B5B7495707BF7133B9FB3F834045611 /* EXPBlockDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1795ED3D682D8EDC5CEC1EA831BEECEA /* EXPBlockDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C2700C7DAA15C6AF84A595865C42F4D /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = F6ACA95F6EDBB1752AADF70C323E1E5F /* EXPMatchers+contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CE8E451DC171084F0312B7837478569 /* StrongestPasswordValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60409B5C0312EFAE3836779E3AD3E661 /* StrongestPasswordValidator-dummy.m */; };
 		3D48EE131B6577ED73A5CC481A6FE40C /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 084E3F0BF91113EC5ADAD2356684C5D2 /* Expecta.framework */; };
 		402E54EF2367B698E894923221070DBD /* Pods-StrongestPasswordValidator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F427F73EF0356DAE9AF6B46869178D /* Pods-StrongestPasswordValidator_Tests-dummy.m */; };
 		403292D82DA62291204BF59524BC4EDB /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 5267376A130B688AA8DC669933C16D9A /* EXPMatchers+haveCountOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -67,11 +69,6 @@
 		65BC31095CCDFC80CBF6BBA843751F23 /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B647A866CAF55406F516ECE6F8AE7F8B /* EXPMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66A27898E989A3FA5C15AA671C4536F0 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 760BA7B5F09D477F128F7CD8D3AB7FF2 /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		67459AD239EF669A365519E06B45DCFE /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F63B0FF272D1EB750D82F3EADA2D2CA /* EXPExpect.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6846FE121C4A950100FD46A7 /* StrongestPasswordValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6846FE101C4A950100FD46A7 /* StrongestPasswordValidator.h */; };
-		6846FE131C4A950100FD46A7 /* StrongestPasswordValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6846FE101C4A950100FD46A7 /* StrongestPasswordValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6846FE141C4A950100FD46A7 /* StrongestPasswordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6846FE111C4A950100FD46A7 /* StrongestPasswordValidator.m */; };
-		6846FE151C4A950100FD46A7 /* StrongestPasswordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6846FE111C4A950100FD46A7 /* StrongestPasswordValidator.m */; };
-		6846FE161C4A950100FD46A7 /* StrongestPasswordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6846FE111C4A950100FD46A7 /* StrongestPasswordValidator.m */; };
 		6E1D978790705E137FDE439AA68DD3AA /* EXPFloatTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = CD486E43B7465271EE4EBCB98E5DAF8D /* EXPFloatTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EFC63A5CED45BB39FC79D87F2C47D6B /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = A54AE821E3D5E7DF7DA3ED83AF9B4AF2 /* EXPMatchers+beGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F278423C8AE1DA47F35E374BB5B91EC /* EXPMatchers+beSupersetOf.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C7CD39279BCFD392135DCF45F61F03 /* EXPMatchers+beSupersetOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -101,6 +98,7 @@
 		9B2E761A064459F77EA9870BEF03ACC3 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 431B770DD18C6C810E0ECD250D063471 /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BB9159FBA757600D3D4C0FF645F3911 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB667FDEC11589B26C54AE25F550F2C /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9C86817EC8D857BB581B28915EE8D464 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E594C5C1A90F9CE29806E2487C723054 /* Foundation.framework */; };
+		9E579825C3DD203A5A6EC7166B7E7AE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E594C5C1A90F9CE29806E2487C723054 /* Foundation.framework */; };
 		9F54C951186A73130A1AACE9AE31981E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E594C5C1A90F9CE29806E2487C723054 /* Foundation.framework */; };
 		A161B21864AE7749A657DAA5D34C8833 /* Pods-StrongestPasswordValidator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95033CB646045BF89C6B77522737267F /* Pods-StrongestPasswordValidator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4BC778607F08AE924B0E3D29ABA1F16 /* SpectaDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = FB93C123AC6F580DF978D60A8191F679 /* SpectaDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -108,7 +106,6 @@
 		AFFC8900E52BBEC72059334132F3A8F3 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B52C3887A118767CC0A773555B7C029 /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0B81A36DCCF729378621EC8BC3612AD /* SPTSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8175700E46E467915FC3D84336F6A3 /* SPTSpec.m */; };
 		B5FF146C5DDA1416EC9372C42FCA4C06 /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = DACE406B2E53BE18445F22E26993E5B9 /* SpectaDSL.m */; };
-		B829E8A457FF11B04DCDFEB96766F935 /* StrongestPasswordValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF05EE6CDE14DB7661FCAD5FA643DF17 /* StrongestPasswordValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B84431CF8C64F363A334AA7089F6C134 /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = 064D45869BC2F37AD341CBDE9F822387 /* NSValue+Expecta.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BA12B131F10BCE3BE6E9A02FC908FE9D /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EF39D56E8A55D649F9810E362FA318 /* EXPMatchers+beCloseTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BC55C8365AEFF8217F6A567607754854 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E348D84229E9000F93233339AFC317B /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -116,7 +113,6 @@
 		BFC2011EE9C4C3A09F63D8E13B29D3D7 /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C75DFE8C463E28459A9A9DD7E921822 /* SPTExample.m */; };
 		C6E9B0A908F410317F2DBBECA0944AAB /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B0CBF1C26A97FB6FEFDFDB7BA71F75 /* FBSnapshotTestCase-dummy.m */; };
 		C7D763DDFD413C6AC75AB52E0EF44F74 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 5514D13D44B78009D4AFEEDFA4E4FDBB /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA13C7456CE5216F769822EDCAD6AC42 /* StrongestPasswordValidator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D24CF0E26F91C54DB16EC931EF037B2 /* StrongestPasswordValidator.bundle */; };
 		CE3F4ECBB0BC095577D66AE50C8E604C /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AF203F6B98E185A822F5F0BC6DB151 /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CE91E0B7C2BF362403CB3A75E69AA061 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = A0E1EDDA8A4867913953E0CBF82097C2 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CF34E2876EA15263A936C163EE27FBB5 /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 6732C58C04F8341AD50DE36AEE2EBF41 /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -129,7 +125,6 @@
 		D9A97701F6FEAB655867797309C0A185 /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = F0550288A3E4DA5B207A666BE8E62168 /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAD1C5990264E1ECFB3930D99081A956 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E594C5C1A90F9CE29806E2487C723054 /* Foundation.framework */; };
 		DB30F82FB1BE083D9471B965FB500CA2 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 222277628576E6CB279473688BA88F01 /* EXPMatchers+conformTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		DC0C6BEE12F4757C44F407C15B6B8D4D /* StrongestPasswordValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D41798F2F96891B0D6D6057EC5617B /* StrongestPasswordValidator-dummy.m */; };
 		E0A077DFB064B79685B810CCEFB2F1EF /* EXPMatchers+respondTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BE855C76546F434D61EAC92F2988BD /* EXPMatchers+respondTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E0AAF49134A0505DF00E20E7B62087E1 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 959C603B0B7FDCFBCEC10840D84C91CE /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E10811B5E4578C31FB675361C99EDED6 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = C208752E77DFA06CBC28AD496B28B835 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -137,20 +132,22 @@
 		E3C61206BEDBA3EBAA0A69B51DE0F3AA /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4C7651D93EA7961A58155BBDF43CF /* FBSnapshotTestCasePlatform.m */; };
 		E4EC16570D46F25B3BD2830D65C06AE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E594C5C1A90F9CE29806E2487C723054 /* Foundation.framework */; };
 		E735386085CE344F6A01178CF4763852 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 28980D1268BF5D8196D266D4FC2F50E4 /* EXPMatchers+beNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E977AF25ECA72760A1B359B59BBD2F52 /* StrongestPasswordValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E27ED60DFC31EB17B7364F8EFFC66 /* StrongestPasswordValidator.m */; };
 		EA840679AC9463E0E3D371FCC3466B0A /* EXPMatchers+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B959D8DDAA2ED93C94CF628C922CD14 /* EXPMatchers+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EED65155CCB48217E6117558D32CB158 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E594C5C1A90F9CE29806E2487C723054 /* Foundation.framework */; };
 		EF4ACF59CC51EFD5A2F5EA038FCBF68C /* SpectaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F9AB2173995E9AF3D7647F10735FD6 /* SpectaTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF6497EE123F6BC0C1B09717437C5908 /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D21C236068062A9C4DDD612C5A3467B /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F0DDF02A078B917997FF025BB33BB842 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EE63300C3D43B1B92124CD21806E8C /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F12D57414A73406831CC032A7170DBFF /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 91453F85BD953E023DC76351FFEA1D94 /* EXPMatchers+beginWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F1867C99D4A92FC191093E4901E463B5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F03C6FF2E280604579F1C16B31F89E /* XCTest.framework */; };
 		F2317E42989FF0584311B5C9443D94E6 /* SPTCompiledExample.m in Sources */ = {isa = PBXBuildFile; fileRef = C468A58BBD0142C1B15D5D1E99CD14D2 /* SPTCompiledExample.m */; };
+		F3DDBDA44C93EF053127E9A36C61B331 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEAC6FF9B1C2DE4B60D888AF8300AA9 /* UIKit.framework */; };
 		F41209A94070904A00BDF24ACB6336B6 /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B34EFC4AB0895A9F930413755AC4EB /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F51B74DE5C602FD12FA4562D6F98EADC /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D657B34A1C94FBF176F35C1081FD8A9 /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F58F9BC7759BB8A5007B8821A275AEDD /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 979A46F25D9FAAF442E8F9E6AF55F135 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F75CB2A727F678C9A848A3A11EA7979B /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = C22A60459B7AF517FAFC1750AAABDCEB /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA839F20BC13A260E089D374CAAB584E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F03C6FF2E280604579F1C16B31F89E /* XCTest.framework */; };
 		FB3001FDA76924BBFAFDC9294BDD65B3 /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 827940DAD186863374E719CC8D5FCE23 /* SPTCallSite.m */; };
+		FB8046073E4BBA7E22A1AFDD75DD33F3 /* StrongestPasswordValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BB6307EA5141AD7D60C74242EDCC65 /* StrongestPasswordValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC20596ABFE14A61F171A29FD03275E7 /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A18C1EB2EC337A87C21C89732639D4 /* EXPMatchers+contain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FC45858927D3B6A0F922C4B697B04A38 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1F80FD765EB6D46AB2B2CDF719CFD7 /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FCDC9C0B871F82CB1AEE73303F9A2927 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36102D49C18C6626EFEE0345368E470 /* QuartzCore.framework */; };
@@ -172,13 +169,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 0D888F29E05E498D0CD91A51D28599A5;
 			remoteInfo = Expecta;
-		};
-		348FF5A0AAC0BBE3161E48D7CF8B2B57 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B65F7700EB3B8DAF3137D42A363F2B48;
-			remoteInfo = "StrongestPasswordValidator-StrongestPasswordValidator";
 		};
 		49ACF638BE4C03BA5604FA4230515C15 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -233,28 +223,29 @@
 		084E3F0BF91113EC5ADAD2356684C5D2 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5F6EC9C4C2795348152BA100C32B10 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		0B888176328FFBF04C3DDEEC90D32F1B /* Pods-StrongestPasswordValidator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StrongestPasswordValidator_Example-dummy.m"; sourceTree = "<group>"; };
-		0BB72C1D2CDD876FE2902539A110A34D /* Pods_StrongestPasswordValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrongestPasswordValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C75DFE8C463E28459A9A9DD7E921822 /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
-		0D24CF0E26F91C54DB16EC931EF037B2 /* StrongestPasswordValidator.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrongestPasswordValidator.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AB06267BE05F51AE1C275A4708AF6F /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		138B4B9E8F5ED264641CB8C2BB88E058 /* Pods-StrongestPasswordValidator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StrongestPasswordValidator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		158CEFBA77071AB835E435120F4CE616 /* EXPMatchers+respondTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+respondTo.h"; path = "Expecta/Matchers/EXPMatchers+respondTo.h"; sourceTree = "<group>"; };
 		15EE63300C3D43B1B92124CD21806E8C /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
 		15F9AB2173995E9AF3D7647F10735FD6 /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = Specta/Specta/SpectaTypes.h; sourceTree = "<group>"; };
 		163AE87CBFEF225011F9A5F0E41D7418 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		1795ED3D682D8EDC5CEC1EA831BEECEA /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = Expecta/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
-		185722678D8BEAAE3358BDDE912AD278 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A4C7651D93EA7961A58155BBDF43CF /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		19D7E0FEC362BEC211648D104511BD5C /* EXPMatchers+beTruthy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beTruthy.m"; path = "Expecta/Matchers/EXPMatchers+beTruthy.m"; sourceTree = "<group>"; };
 		1ABB2201E2C23ED09ECB1930B874AA59 /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
+		1D7E27ED60DFC31EB17B7364F8EFFC66 /* StrongestPasswordValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = StrongestPasswordValidator.m; sourceTree = "<group>"; };
 		1DC6F211A8986115574AC0CAF778A1CC /* Pods-StrongestPasswordValidator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StrongestPasswordValidator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1E7BBDA96EB748B4566D121043C548C0 /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
 		222277628576E6CB279473688BA88F01 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
 		222B35F590250B97F30D1C37C402B693 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
 		22C6E607E674AB20554080B3E2A4B463 /* EXPMatchers+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+FBSnapshotTest.m"; sourceTree = "<group>"; };
+		23276353F5CFABE3E4DDDFC112AE9A18 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		237C1D40E94ECB9726EC1CC5E6691588 /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
 		26B782A5F5606BC64AF7B709A1D93B4E /* Expecta+Snapshots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-umbrella.h"; sourceTree = "<group>"; };
 		2744A2542946D8DE61ED04D083BCEA56 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		274B0E07010F236BE53B3B98CEC9AB62 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BB6307EA5141AD7D60C74242EDCC65 /* StrongestPasswordValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StrongestPasswordValidator-umbrella.h"; sourceTree = "<group>"; };
 		28980D1268BF5D8196D266D4FC2F50E4 /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
 		2F1E859E32D523B17CD8D94AED21A1D4 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
 		2F645EBA093F9FF47932FF1D5CE54764 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
@@ -263,7 +254,6 @@
 		370C8488ABDC015700FCF97F059BFD42 /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
 		3A35BE0267849F84514C1480B43A470C /* SPTCompiledExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCompiledExample.h; path = Specta/Specta/SPTCompiledExample.h; sourceTree = "<group>"; };
 		3BC296A75FAF73BAC957A272364A7351 /* EXPMatchers+raiseWithReason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raiseWithReason.m"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.m"; sourceTree = "<group>"; };
-		3CB7C6F380C2C4959361B9E59AEB163E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DA8473E9C7CE1583F74DFBDAE8B0854 /* ExpectaObject+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExpectaObject+FBSnapshotTest.h"; sourceTree = "<group>"; };
 		3E348D84229E9000F93233339AFC317B /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
 		3F862797664D0A6668AE953CB22045C0 /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Specta.modulemap; sourceTree = "<group>"; };
@@ -272,6 +262,7 @@
 		428F5AA64CB12DFC1C335C47914064E0 /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
 		431B770DD18C6C810E0ECD250D063471 /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		43D9D3D0C96D5284831B2C833DD79A36 /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
+		462A8DDA7F176BA9491C93066D96B864 /* StrongestPasswordValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = StrongestPasswordValidator.modulemap; sourceTree = "<group>"; };
 		46B0CBF1C26A97FB6FEFDFDB7BA71F75 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		47206832DCDA5F9B787358332595E3B5 /* Pods-StrongestPasswordValidator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StrongestPasswordValidator_Tests-umbrella.h"; sourceTree = "<group>"; };
 		476BC0656C2EFA7AF407B47C5E3B7625 /* Pods-StrongestPasswordValidator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StrongestPasswordValidator_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -283,32 +274,30 @@
 		52D10D246BF6259050E61A143820A319 /* Pods-StrongestPasswordValidator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StrongestPasswordValidator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5514D13D44B78009D4AFEEDFA4E4FDBB /* SPTExcludeGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExcludeGlobalBeforeAfterEach.h; path = Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
 		56210500ED513A89FB8649881FF4536A /* Pods-StrongestPasswordValidator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-StrongestPasswordValidator_Tests.modulemap"; sourceTree = "<group>"; };
-		568B63BB638A4D2C8FB150339A6DBAD2 /* StrongestPasswordValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StrongestPasswordValidator.xcconfig; sourceTree = "<group>"; };
 		57AF203F6B98E185A822F5F0BC6DB151 /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
 		581C5F5012EB4722B076757D7F522B51 /* Specta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.xcconfig; sourceTree = "<group>"; };
 		58335D3E2909BF5D62C81864F19B78F1 /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
-		5A4DB332956817BE284A015D7B817C39 /* StrongestPasswordValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StrongestPasswordValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A202E452B5548574E7AED37A03F73D /* StrongestPasswordValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StrongestPasswordValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C8175700E46E467915FC3D84336F6A3 /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
+		60409B5C0312EFAE3836779E3AD3E661 /* StrongestPasswordValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StrongestPasswordValidator-dummy.m"; sourceTree = "<group>"; };
 		64E62B947C08376C71E07F669D636FF8 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
+		65FAEED59F59DC01D43D51D1993DECCA /* StrongestPasswordValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = StrongestPasswordValidator.h; sourceTree = "<group>"; };
 		6732C58C04F8341AD50DE36AEE2EBF41 /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
-		6846FE101C4A950100FD46A7 /* StrongestPasswordValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrongestPasswordValidator.h; sourceTree = "<group>"; };
-		6846FE111C4A950100FD46A7 /* StrongestPasswordValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrongestPasswordValidator.m; sourceTree = "<group>"; };
 		69BE855C76546F434D61EAC92F2988BD /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
 		69EE26A94498B7FA2CAADD079D03D3CF /* Pods-StrongestPasswordValidator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StrongestPasswordValidator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6A1F80FD765EB6D46AB2B2CDF719CFD7 /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
 		6B959D8DDAA2ED93C94CF628C922CD14 /* EXPMatchers+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+FBSnapshotTest.h"; sourceTree = "<group>"; };
+		6C61A4DD70ACBA4AE90D908D32F6C0E6 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F171023695E78011482097406A42BC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		707C1B7180164DF6560719973AEC92C1 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
 		7085F5CB16BF96F625D6465A4DA29F6F /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
 		70879F4C3E0CE4C4593A08B4BB1C1AF0 /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
 		71AF85B6558D634E3F383BA6AAEF3267 /* ExpectaSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaSupport.m; path = Expecta/ExpectaSupport.m; sourceTree = "<group>"; };
-		7349CA9C68F43284BC059C0256FC2B8C /* StrongestPasswordValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StrongestPasswordValidator-prefix.pch"; sourceTree = "<group>"; };
 		757732CABCCD0D3A3DECF0188321177D /* Specta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Specta-dummy.m"; sourceTree = "<group>"; };
 		758C1F02B714A0821AE887BC00092EF6 /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
 		75C3D8B18F8E2A5FB67C1A251F1D7AA4 /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
 		760BA7B5F09D477F128F7CD8D3AB7FF2 /* EXPMatchers+beIdenticalTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beIdenticalTo.m"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.m"; sourceTree = "<group>"; };
 		768E0C437692539220C0D4D914229388 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		777528AECD1967C0F46DFC0778D6035E /* StrongestPasswordValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = StrongestPasswordValidator.modulemap; sourceTree = "<group>"; };
 		7874ECE957DC7F80946CB43F9419C903 /* ExpectaObject+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExpectaObject+FBSnapshotTest.m"; sourceTree = "<group>"; };
 		79A18C1EB2EC337A87C21C89732639D4 /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
 		7A7D54F2046B9323D0CB2748E382BAA3 /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
@@ -317,6 +306,7 @@
 		7EF2072991CBA5987025178150BD49F6 /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
 		827940DAD186863374E719CC8D5FCE23 /* SPTCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCallSite.m; path = Specta/Specta/SPTCallSite.m; sourceTree = "<group>"; };
 		8311ACB34F75B8C4C99CE6A0717B0D9D /* Pods-StrongestPasswordValidator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StrongestPasswordValidator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8861D9C06D95C3FCBA9DBED90BC16B19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A93B2D4210E50583F13E405446AD4D8 /* Pods-StrongestPasswordValidator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StrongestPasswordValidator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B52C3887A118767CC0A773555B7C029 /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
 		8B652185567F3ADD3D34F82F3507BB7E /* Pods-StrongestPasswordValidator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StrongestPasswordValidator_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -326,11 +316,13 @@
 		91EC2AD8B04A0D0F0EC345F2B7070A95 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
 		921C86B70AE5EE1E10BD09948738EF96 /* Expecta+Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Expecta+Snapshots.modulemap"; sourceTree = "<group>"; };
 		928CB47DE4B1596A4A342DD651619A9F /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94304A01635C4E2F8F05D16C84CDBC61 /* Pods_StrongestPasswordValidator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrongestPasswordValidator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95033CB646045BF89C6B77522737267F /* Pods-StrongestPasswordValidator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StrongestPasswordValidator_Example-umbrella.h"; sourceTree = "<group>"; };
 		959C603B0B7FDCFBCEC10840D84C91CE /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
-		96D41798F2F96891B0D6D6057EC5617B /* StrongestPasswordValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StrongestPasswordValidator-dummy.m"; sourceTree = "<group>"; };
 		979A46F25D9FAAF442E8F9E6AF55F135 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		99C6B238F553535C865A990AB217F102 /* EXPMatchers+beCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beCloseTo.h"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.h"; sourceTree = "<group>"; };
+		9A7BAA63F9E719D3F39987235017C780 /* StrongestPasswordValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StrongestPasswordValidator-prefix.pch"; sourceTree = "<group>"; };
 		9ABA02BD58E16D9841A495FD86DF6334 /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
 		9D21C236068062A9C4DDD612C5A3467B /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
 		9DC5EEA6B4746F1531DD69BC488E69F4 /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
@@ -344,7 +336,6 @@
 		A9A4579B877C302F516E9CEE77766372 /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
 		A9AD646C1FEAB8503FF6D57F404BC0E6 /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
 		AB2DADCEEF4EB97FC102ACCDF8FB51E9 /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
-		ABD8E6951415C811AFF38EE2BD7A72DB /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFE305560483772516B366088F6E2B4 /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
 		B34472CAE1E8EC26152CEFB1E82BE050 /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
 		B4A617F1464A48980127A218AB18B898 /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
@@ -353,10 +344,8 @@
 		B647A866CAF55406F516ECE6F8AE7F8B /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
 		B8FCA6786291A26415C7A3CD0B73DA8C /* Pods-StrongestPasswordValidator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StrongestPasswordValidator_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B9075248C77581BD5230031BD8E5BA45 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BB4DC57B05E96C2EB152A59EFCDB6F12 /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
 		BEC4D7D2259B4B710DED71BD7949BACA /* SPTTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTTestSuite.h; path = Specta/Specta/SPTTestSuite.h; sourceTree = "<group>"; };
-		BF05EE6CDE14DB7661FCAD5FA643DF17 /* StrongestPasswordValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StrongestPasswordValidator-umbrella.h"; sourceTree = "<group>"; };
 		BF701C1C8F03B74819BFFD19C9DEA426 /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
 		C04E3E80E2CD18DEAE104F67CE80B85A /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
 		C09805DD701F05B0FA3348EDA3BDC7CB /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = Expecta/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
@@ -383,23 +372,22 @@
 		D41D99FA9E9AAB2466DF45604137EF43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4EF39D56E8A55D649F9810E362FA318 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
 		D7138A5F22FAC9B6AD9DBD509AF7AC4C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8F1440F634EB29E92D571C2EC61B3A8 /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F427F73EF0356DAE9AF6B46869178D /* Pods-StrongestPasswordValidator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StrongestPasswordValidator_Tests-dummy.m"; sourceTree = "<group>"; };
-		D9DFA8021804B2A4BD78F9B6E743D7E5 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACE406B2E53BE18445F22E26993E5B9 /* SpectaDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaDSL.m; path = Specta/Specta/SpectaDSL.m; sourceTree = "<group>"; };
 		DF4BD2050ABE1205D1B1A164803A18DA /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
 		E42AB63F84DC20AD246EB8FFA3EFEF2C /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
 		E594C5C1A90F9CE29806E2487C723054 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E5970E5D763F65673B9F5F4C5D0A9D0F /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		E5B05516F560C08699BF135F729DD5E4 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
-		E5DC176C3960B57555378F640B8CA92D /* ResourceBundle-StrongestPasswordValidator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-StrongestPasswordValidator-Info.plist"; sourceTree = "<group>"; };
-		EA86E078D98D09B3A3F35FD49E94174B /* Pods_StrongestPasswordValidator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrongestPasswordValidator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEAC6FF9B1C2DE4B60D888AF8300AA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EDE0D6A47393B29719A2BF4340A993CE /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		EFA7E0EF69E6AF09B1451DE938971353 /* StrongestPasswordValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StrongestPasswordValidator.xcconfig; sourceTree = "<group>"; };
 		F0550288A3E4DA5B207A666BE8E62168 /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
 		F2D3A79E58CE53867199D68A7690BE0C /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
+		F49EE6F1DC38F6B29748CFDD8DF56B6A /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6636C0229E54793FBCF41941077A50A /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
 		F6ACA95F6EDBB1752AADF70C323E1E5F /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "Expecta/Matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
+		F765DB0B38D7C945FB160540FD6889E1 /* Pods_StrongestPasswordValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrongestPasswordValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB362E8DBE566CD58ABD4124535F2081 /* Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Specta.h; path = Specta/Specta/Specta.h; sourceTree = "<group>"; };
 		FB93C123AC6F580DF978D60A8191F679 /* SpectaDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaDSL.h; path = Specta/Specta/SpectaDSL.h; sourceTree = "<group>"; };
 		FBA78AD493C15517AB45ED930E51A1E0 /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "Expecta/Matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
@@ -418,11 +406,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E00690C56A08B090C62BB9A2E6472AA /* Frameworks */ = {
+		31D67D44CC31F0A4A181CC080D8C9A8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EED65155CCB48217E6117558D32CB158 /* Foundation.framework in Frameworks */,
+				9E579825C3DD203A5A6EC7166B7E7AE4 /* Foundation.framework in Frameworks */,
+				F3DDBDA44C93EF053127E9A36C61B331 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,13 +440,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAD1C5990264E1ECFB3930D99081A956 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CBBCA448D34B7492CCFF1E0655E92702 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,15 +486,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		21A744E881D6D69C289E875639182F4E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6846FE101C4A950100FD46A7 /* StrongestPasswordValidator.h */,
-				6846FE111C4A950100FD46A7 /* StrongestPasswordValidator.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		25823D98072A86925BD8984853B7788E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -540,36 +513,6 @@
 			path = "../Target Support Files/Expecta";
 			sourceTree = "<group>";
 		};
-		38DEE23F2DFE24FE9B644D92348DE167 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3CB7C6F380C2C4959361B9E59AEB163E /* Info.plist */,
-				E5DC176C3960B57555378F640B8CA92D /* ResourceBundle-StrongestPasswordValidator-Info.plist */,
-				777528AECD1967C0F46DFC0778D6035E /* StrongestPasswordValidator.modulemap */,
-				568B63BB638A4D2C8FB150339A6DBAD2 /* StrongestPasswordValidator.xcconfig */,
-				96D41798F2F96891B0D6D6057EC5617B /* StrongestPasswordValidator-dummy.m */,
-				7349CA9C68F43284BC059C0256FC2B8C /* StrongestPasswordValidator-prefix.pch */,
-				BF05EE6CDE14DB7661FCAD5FA643DF17 /* StrongestPasswordValidator-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/StrongestPasswordValidator";
-			sourceTree = "<group>";
-		};
-		3C5AB196B9AAA3FA55577D63E3516C0E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D9DFA8021804B2A4BD78F9B6E743D7E5 /* Expecta.framework */,
-				D8F1440F634EB29E92D571C2EC61B3A8 /* Expecta_Snapshots.framework */,
-				185722678D8BEAAE3358BDDE912AD278 /* FBSnapshotTestCase.framework */,
-				EA86E078D98D09B3A3F35FD49E94174B /* Pods_StrongestPasswordValidator_Example.framework */,
-				0BB72C1D2CDD876FE2902539A110A34D /* Pods_StrongestPasswordValidator_Tests.framework */,
-				ABD8E6951415C811AFF38EE2BD7A72DB /* Specta.framework */,
-				0D24CF0E26F91C54DB16EC931EF037B2 /* StrongestPasswordValidator.bundle */,
-				5A4DB332956817BE284A015D7B817C39 /* StrongestPasswordValidator.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		3FE21E2F461478860B1C890F563D10A4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -584,7 +527,7 @@
 		4548A878215B2C92D3C8719F8627AEB9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB324A571ADCED0CE1B1336EB3FD7FD9 /* StrongestPasswordValidator */,
+				FB81C1DBA4698A1A655D3055B412F36A /* StrongestPasswordValidator */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -599,20 +542,26 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		4AA8DA6A757455DA525C0888EDBB54F5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				21A744E881D6D69C289E875639182F4E /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		6823C1D63AF04872501E6D14802C3F02 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
 				3FF46F134970C91061B1E020DB0DACB7 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		76535BDF0FDA2A2B0B7D7B66ECBF74ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8861D9C06D95C3FCBA9DBED90BC16B19 /* Info.plist */,
+				462A8DDA7F176BA9491C93066D96B864 /* StrongestPasswordValidator.modulemap */,
+				EFA7E0EF69E6AF09B1451DE938971353 /* StrongestPasswordValidator.xcconfig */,
+				60409B5C0312EFAE3836779E3AD3E661 /* StrongestPasswordValidator-dummy.m */,
+				9A7BAA63F9E719D3F39987235017C780 /* StrongestPasswordValidator-prefix.pch */,
+				27BB6307EA5141AD7D60C74242EDCC65 /* StrongestPasswordValidator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/StrongestPasswordValidator";
 			sourceTree = "<group>";
 		};
 		79484769BF08DC1D5243733A16B26307 /* Expecta */ = {
@@ -699,13 +648,35 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				4548A878215B2C92D3C8719F8627AEB9 /* Development Pods */,
 				BA1F311D20F01C7F7D3FEE1487AB9592 /* Frameworks */,
 				08D965B0F9B0084EEFBE7A581FFDD562 /* Pods */,
-				3C5AB196B9AAA3FA55577D63E3516C0E /* Products */,
+				8A9F7AF8DE7BF2029CD0FE72D966EE35 /* Products */,
 				1C54C4249DFEE725041B0425DF4D90B6 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8A9F7AF8DE7BF2029CD0FE72D966EE35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49EE6F1DC38F6B29748CFDD8DF56B6A /* Expecta.framework */,
+				10AB06267BE05F51AE1C275A4708AF6F /* Expecta_Snapshots.framework */,
+				6C61A4DD70ACBA4AE90D908D32F6C0E6 /* FBSnapshotTestCase.framework */,
+				94304A01635C4E2F8F05D16C84CDBC61 /* Pods_StrongestPasswordValidator_Example.framework */,
+				F765DB0B38D7C945FB160540FD6889E1 /* Pods_StrongestPasswordValidator_Tests.framework */,
+				23276353F5CFABE3E4DDDFC112AE9A18 /* Specta.framework */,
+				58A202E452B5548574E7AED37A03F73D /* StrongestPasswordValidator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F04A6FAA405CA54D68ABDE8E42A7C4A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FB8A0D747324828270C879B3A4DEAABA /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		BA1F311D20F01C7F7D3FEE1487AB9592 /* Frameworks */ = {
@@ -768,16 +739,6 @@
 				08186BBB76D4CE07D88FBD9E82E9C892 /* UIImage+Snapshot.m */,
 			);
 			name = Core;
-			sourceTree = "<group>";
-		};
-		CB324A571ADCED0CE1B1336EB3FD7FD9 /* StrongestPasswordValidator */ = {
-			isa = PBXGroup;
-			children = (
-				4AA8DA6A757455DA525C0888EDBB54F5 /* Pod */,
-				38DEE23F2DFE24FE9B644D92348DE167 /* Support Files */,
-			);
-			name = StrongestPasswordValidator;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CE1B208BD6F5A529ED7C0BDDF37E4879 /* Pods-StrongestPasswordValidator_Example */ = {
@@ -856,9 +817,37 @@
 			path = "../Target Support Files/Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
+		FB81C1DBA4698A1A655D3055B412F36A /* StrongestPasswordValidator */ = {
+			isa = PBXGroup;
+			children = (
+				9F04A6FAA405CA54D68ABDE8E42A7C4A /* Pod */,
+				76535BDF0FDA2A2B0B7D7B66ECBF74ED /* Support Files */,
+			);
+			name = StrongestPasswordValidator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FB8A0D747324828270C879B3A4DEAABA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65FAEED59F59DC01D43D51D1993DECCA /* StrongestPasswordValidator.h */,
+				1D7E27ED60DFC31EB17B7364F8EFFC66 /* StrongestPasswordValidator.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		41B02413D789CB8A0E551A4CE274B660 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8046073E4BBA7E22A1AFDD75DD33F3 /* StrongestPasswordValidator-umbrella.h in Headers */,
+				3AA9DAC1F8347855B22B3814979FCF49 /* StrongestPasswordValidator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		966427BD32145AD621F074D1691342B8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -869,7 +858,6 @@
 				837B593D7C1D01B4EA400247309D6AB0 /* Expecta-umbrella.h in Headers */,
 				E1EC4532663CA75DE5BD00CB0A56814D /* Expecta.h in Headers */,
 				2E14619153A453BB8DF389FB6EA147BE /* ExpectaObject.h in Headers */,
-				6846FE121C4A950100FD46A7 /* StrongestPasswordValidator.h in Headers */,
 				AFFC8900E52BBEC72059334132F3A8F3 /* ExpectaSupport.h in Headers */,
 				67459AD239EF669A365519E06B45DCFE /* EXPExpect.h in Headers */,
 				6E1D978790705E137FDE439AA68DD3AA /* EXPFloatTuple.h in Headers */,
@@ -956,15 +944,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2A99B55D57B059F1DA061006D7D8CB4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6846FE131C4A950100FD46A7 /* StrongestPasswordValidator.h in Headers */,
-				B829E8A457FF11B04DCDFEB96766F935 /* StrongestPasswordValidator-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F4CD5DD853B84CC2D8644CF4FED35F1E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -995,26 +974,24 @@
 			);
 			name = Expecta;
 			productName = Expecta;
-			productReference = D9DFA8021804B2A4BD78F9B6E743D7E5 /* Expecta.framework */;
+			productReference = F49EE6F1DC38F6B29748CFDD8DF56B6A /* Expecta.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		53861AE6CC0A9524BE097987C574D16C /* StrongestPasswordValidator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24108BA1D3507E0AF3DD62AC45DA9BD3 /* Build configuration list for PBXNativeTarget "StrongestPasswordValidator" */;
 			buildPhases = (
-				9AAA804BB03D785C8CD0DC647C269EAE /* Sources */,
-				5E00690C56A08B090C62BB9A2E6472AA /* Frameworks */,
-				EC262255BAD0A5EB273F1DD65500027F /* Resources */,
-				F2A99B55D57B059F1DA061006D7D8CB4 /* Headers */,
+				0E9E2CD2E14D856786D7B7056174E88D /* Sources */,
+				31D67D44CC31F0A4A181CC080D8C9A8F /* Frameworks */,
+				41B02413D789CB8A0E551A4CE274B660 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1E0778BAAE8DFB60FF7BCC6F4D16D195 /* PBXTargetDependency */,
 			);
 			name = StrongestPasswordValidator;
 			productName = StrongestPasswordValidator;
-			productReference = 5A4DB332956817BE284A015D7B817C39 /* StrongestPasswordValidator.framework */;
+			productReference = 58A202E452B5548574E7AED37A03F73D /* StrongestPasswordValidator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5B2CA681EAC77C0AC0ACD17D0BBE5432 /* Specta */ = {
@@ -1031,7 +1008,7 @@
 			);
 			name = Specta;
 			productName = Specta;
-			productReference = ABD8E6951415C811AFF38EE2BD7A72DB /* Specta.framework */;
+			productReference = 23276353F5CFABE3E4DDDFC112AE9A18 /* Specta.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		619F0D28240534293108906FED04836F /* Expecta+Snapshots */ = {
@@ -1050,7 +1027,7 @@
 			);
 			name = "Expecta+Snapshots";
 			productName = "Expecta+Snapshots";
-			productReference = D8F1440F634EB29E92D571C2EC61B3A8 /* Expecta_Snapshots.framework */;
+			productReference = 10AB06267BE05F51AE1C275A4708AF6F /* Expecta_Snapshots.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6DF94E5864C0ED54CAD419E3D779D558 /* Pods-StrongestPasswordValidator_Example */ = {
@@ -1068,7 +1045,7 @@
 			);
 			name = "Pods-StrongestPasswordValidator_Example";
 			productName = "Pods-StrongestPasswordValidator_Example";
-			productReference = EA86E078D98D09B3A3F35FD49E94174B /* Pods_StrongestPasswordValidator_Example.framework */;
+			productReference = 94304A01635C4E2F8F05D16C84CDBC61 /* Pods_StrongestPasswordValidator_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7EA6436EA854B8AC77D6EACF824173DF /* Pods-StrongestPasswordValidator_Tests */ = {
@@ -1090,25 +1067,8 @@
 			);
 			name = "Pods-StrongestPasswordValidator_Tests";
 			productName = "Pods-StrongestPasswordValidator_Tests";
-			productReference = 0BB72C1D2CDD876FE2902539A110A34D /* Pods_StrongestPasswordValidator_Tests.framework */;
+			productReference = F765DB0B38D7C945FB160540FD6889E1 /* Pods_StrongestPasswordValidator_Tests.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		B65F7700EB3B8DAF3137D42A363F2B48 /* StrongestPasswordValidator-StrongestPasswordValidator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 10E6ED143746A6511F4C2586C2DEA996 /* Build configuration list for PBXNativeTarget "StrongestPasswordValidator-StrongestPasswordValidator" */;
-			buildPhases = (
-				F300D58A60635DDDD91CAA7CFE2BEDA8 /* Sources */,
-				CBBCA448D34B7492CCFF1E0655E92702 /* Frameworks */,
-				1E767BB339839238DEF30CABAF0F8B47 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "StrongestPasswordValidator-StrongestPasswordValidator";
-			productName = "StrongestPasswordValidator-StrongestPasswordValidator";
-			productReference = 0D24CF0E26F91C54DB16EC931EF037B2 /* StrongestPasswordValidator.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		D07447EE3CEBB0BCB8D61DFCB8EA915F /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
@@ -1124,7 +1084,7 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = 185722678D8BEAAE3358BDDE912AD278 /* FBSnapshotTestCase.framework */;
+			productReference = 6C61A4DD70ACBA4AE90D908D32F6C0E6 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1144,7 +1104,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3C5AB196B9AAA3FA55577D63E3516C0E /* Products */;
+			productRefGroup = 8A9F7AF8DE7BF2029CD0FE72D966EE35 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1155,28 +1115,9 @@
 				7EA6436EA854B8AC77D6EACF824173DF /* Pods-StrongestPasswordValidator_Tests */,
 				5B2CA681EAC77C0AC0ACD17D0BBE5432 /* Specta */,
 				53861AE6CC0A9524BE097987C574D16C /* StrongestPasswordValidator */,
-				B65F7700EB3B8DAF3137D42A363F2B48 /* StrongestPasswordValidator-StrongestPasswordValidator */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		1E767BB339839238DEF30CABAF0F8B47 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC262255BAD0A5EB273F1DD65500027F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CA13C7456CE5216F769822EDCAD6AC42 /* StrongestPasswordValidator.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		050B9690E875D70369E073EC11B52256 /* Sources */ = {
@@ -1191,6 +1132,15 @@
 				07CAFACAFAC87ABBF28D453E70832464 /* UIImage+Compare.m in Sources */,
 				89A46B63E469F17791D14FC64466794A /* UIImage+Diff.m in Sources */,
 				4052EB66107F09D6F856EAA1F4FC0846 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E9E2CD2E14D856786D7B7056174E88D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE8E451DC171084F0312B7837478569 /* StrongestPasswordValidator-dummy.m in Sources */,
+				E977AF25ECA72760A1B359B59BBD2F52 /* StrongestPasswordValidator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1230,15 +1180,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AAA804BB03D785C8CD0DC647C269EAE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DC0C6BEE12F4757C44F407C15B6B8D4D /* StrongestPasswordValidator-dummy.m in Sources */,
-				6846FE151C4A950100FD46A7 /* StrongestPasswordValidator.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B239BD93C67DE976C7F3A1AD982A0A58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1248,7 +1189,6 @@
 				204D694B03BFF3B244A6AB73FACFFC43 /* Expecta-dummy.m in Sources */,
 				94C47C87E397972CE98F75929F3B706C /* ExpectaObject.m in Sources */,
 				4BBCBB9D8EF0B241A4A4FE4982985481 /* ExpectaSupport.m in Sources */,
-				6846FE141C4A950100FD46A7 /* StrongestPasswordValidator.m in Sources */,
 				805E425BBEF7A6133E32E1D30A073010 /* EXPExpect.m in Sources */,
 				CE3F4ECBB0BC095577D66AE50C8E604C /* EXPFloatTuple.m in Sources */,
 				201BF9C605852822CA5A65ADE282A310 /* EXPMatcherHelpers.m in Sources */,
@@ -1290,14 +1230,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F300D58A60635DDDD91CAA7CFE2BEDA8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6846FE161C4A950100FD46A7 /* StrongestPasswordValidator.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1318,12 +1250,6 @@
 			name = StrongestPasswordValidator;
 			target = 53861AE6CC0A9524BE097987C574D16C /* StrongestPasswordValidator */;
 			targetProxy = E876DB2EDC5F159ED3C7236408018B94 /* PBXContainerItemProxy */;
-		};
-		1E0778BAAE8DFB60FF7BCC6F4D16D195 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "StrongestPasswordValidator-StrongestPasswordValidator";
-			target = B65F7700EB3B8DAF3137D42A363F2B48 /* StrongestPasswordValidator-StrongestPasswordValidator */;
-			targetProxy = 348FF5A0AAC0BBE3161E48D7CF8B2B57 /* PBXContainerItemProxy */;
 		};
 		4ACA793EC27274D41A670C74CD739365 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1417,42 +1343,38 @@
 			};
 			name = Debug;
 		};
-		2C442C92732ADBDBFA54CF4EA7B71CDF /* Release */ = {
+		20C73DDC35B2A9C88DD95F291A890782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EE26A94498B7FA2CAADD079D03D3CF /* Pods-StrongestPasswordValidator_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StrongestPasswordValidator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StrongestPasswordValidator_Example/Pods-StrongestPasswordValidator_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StrongestPasswordValidator_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		2F914909F85A5B7FA381E7629A0FFB17 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1512,43 +1434,9 @@
 			};
 			name = Debug;
 		};
-		37F059279487B762E88B6207925A0E0C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A93B2D4210E50583F13E405446AD4D8 /* Pods-StrongestPasswordValidator_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-StrongestPasswordValidator_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StrongestPasswordValidator_Tests/Pods-StrongestPasswordValidator_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_StrongestPasswordValidator_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4877EC47B2D622EF9B8A452DEB3FEA87 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 568B63BB638A4D2C8FB150339A6DBAD2 /* StrongestPasswordValidator.xcconfig */;
+			baseConfigurationReference = EFA7E0EF69E6AF09B1451DE938971353 /* StrongestPasswordValidator.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1575,69 +1463,40 @@
 			};
 			name = Debug;
 		};
-		64833E3F990485988DAB203EFFCF4F39 /* Debug */ = {
+		811519CB8F683AC06F9C98B55AC40F11 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69EE26A94498B7FA2CAADD079D03D3CF /* Pods-StrongestPasswordValidator_Example.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-StrongestPasswordValidator_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StrongestPasswordValidator_Example/Pods-StrongestPasswordValidator_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_StrongestPasswordValidator_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		84F8CB330D4D068389FC1856015DBDBE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C60869B30D78AF568FF9234D5A86E973 /* Pods-StrongestPasswordValidator_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-StrongestPasswordValidator_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StrongestPasswordValidator_Example/Pods-StrongestPasswordValidator_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_StrongestPasswordValidator_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -1670,37 +1529,48 @@
 			};
 			name = Debug;
 		};
-		8E59CBDE2C5B3903A8F9A985A06332B6 /* Release */ = {
+		882EB4391EC2E701934974DA86F7343F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 568B63BB638A4D2C8FB150339A6DBAD2 /* StrongestPasswordValidator.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/StrongestPasswordValidator/ResourceBundle-StrongestPasswordValidator-Info.plist";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = StrongestPasswordValidator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		9F0589E09D0A49ED0B573D546C991364 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 568B63BB638A4D2C8FB150339A6DBAD2 /* StrongestPasswordValidator.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/StrongestPasswordValidator/ResourceBundle-StrongestPasswordValidator-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = StrongestPasswordValidator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		9F922EB706FFAC439955B2833A41A364 /* Release */ = {
+		A989274B38368C3D6C9E8C79C1DE0469 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 51B85A4E1260859025E056E2554BB5EB /* Pods-StrongestPasswordValidator_Tests.release.xcconfig */;
 			buildSettings = {
@@ -1715,7 +1585,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-StrongestPasswordValidator_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-StrongestPasswordValidator_Tests/Pods-StrongestPasswordValidator_Tests.modulemap";
@@ -1725,6 +1595,39 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_StrongestPasswordValidator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC5D3EFAEB970F3D48FE986202BBA16D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C60869B30D78AF568FF9234D5A86E973 /* Pods-StrongestPasswordValidator_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StrongestPasswordValidator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StrongestPasswordValidator_Example/Pods-StrongestPasswordValidator_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StrongestPasswordValidator_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1762,44 +1665,37 @@
 			};
 			name = Debug;
 		};
-		DB44C5CA5E7AC762546FE4E73ED003F3 /* Debug */ = {
+		EA020BA4F719E433FB017103C0E30820 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A93B2D4210E50583F13E405446AD4D8 /* Pods-StrongestPasswordValidator_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StrongestPasswordValidator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StrongestPasswordValidator_Tests/Pods-StrongestPasswordValidator_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StrongestPasswordValidator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -1863,7 +1759,7 @@
 		};
 		F963A8660C4EB96B166EAA8EFC8A7D42 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 568B63BB638A4D2C8FB150339A6DBAD2 /* StrongestPasswordValidator.xcconfig */;
+			baseConfigurationReference = EFA7E0EF69E6AF09B1451DE938971353 /* StrongestPasswordValidator.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1893,15 +1789,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10E6ED143746A6511F4C2586C2DEA996 /* Build configuration list for PBXNativeTarget "StrongestPasswordValidator-StrongestPasswordValidator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9F0589E09D0A49ED0B573D546C991364 /* Debug */,
-				8E59CBDE2C5B3903A8F9A985A06332B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1FE92E6861A2121FEB1F7A576DCEE3A3 /* Build configuration list for PBXNativeTarget "Specta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1923,8 +1810,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB44C5CA5E7AC762546FE4E73ED003F3 /* Debug */,
-				2C442C92732ADBDBFA54CF4EA7B71CDF /* Release */,
+				882EB4391EC2E701934974DA86F7343F /* Debug */,
+				811519CB8F683AC06F9C98B55AC40F11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1932,8 +1819,8 @@
 		39AD9E4F257112631E9225537E53B5A7 /* Build configuration list for PBXNativeTarget "Pods-StrongestPasswordValidator_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37F059279487B762E88B6207925A0E0C /* Debug */,
-				9F922EB706FFAC439955B2833A41A364 /* Release */,
+				EA020BA4F719E433FB017103C0E30820 /* Debug */,
+				A989274B38368C3D6C9E8C79C1DE0469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1941,8 +1828,8 @@
 		6BA54A318DC261512EDD52D91828DE7E /* Build configuration list for PBXNativeTarget "Pods-StrongestPasswordValidator_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64833E3F990485988DAB203EFFCF4F39 /* Debug */,
-				84F8CB330D4D068389FC1856015DBDBE /* Release */,
+				20C73DDC35B2A9C88DD95F291A890782 /* Debug */,
+				AC5D3EFAEB970F3D48FE986202BBA16D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "StrongestPasswordValidator"
-s.version          = "0.1.1"
+s.version          = "0.1.2"
 s.summary          = "StrongestPasswordValidator."
 
 # This description is used to generate tags and improve search results.
@@ -29,11 +29,6 @@ s.platform     = :ios, '7.0'
 s.requires_arc = true
 
 s.source_files = 'Pod/Classes/**/*'
-s.resource_bundles = {
-'StrongestPasswordValidator' => ['Pod/Assets/*.png']
-}
-
-# s.public_header_files = 'Pod/Classes/**/*.h'
 s.frameworks = 'UIKit'
-# s.dependency 'AFNetworking', '~> 2.3'
+
 end
